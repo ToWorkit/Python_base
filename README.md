@@ -1,2 +1,2 @@
 # Python
-Studay
+Study
