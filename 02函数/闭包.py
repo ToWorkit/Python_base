@@ -7,7 +7,7 @@ def count():
   return fs  
 f1, f2, f3 = count()      
 # ll = list(range(1, 4))
-# 结果应该是1， 4， 9 但实际是 9 9 9 
+# 结果应该是1， 4， 9 但实际是 9, 9, 9 
 print(f1())
 print(f2())
 print(f3())

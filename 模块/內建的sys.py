@@ -3,7 +3,7 @@
 #第6行使用__author__变量把作者写进去，这样当你公开源代码后别人就可以瞻仰你的大名；
 
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 
 'a test module'
 
@@ -18,6 +18,7 @@ def test():
     print('Hello, %s' % args[1])  
   else:
     print('Too many arguments')
-print(__name__)    
+print(__name__)   
+print(sys.argv) 
 if __name__ == '__main__':
   test()

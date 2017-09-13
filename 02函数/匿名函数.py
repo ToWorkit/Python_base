@@ -12,4 +12,5 @@ def build(x, y):
   return lambda: x * x + y * y
 
 print(build(2, 5))
+# 匿名函数
 print(build(2, 5)())

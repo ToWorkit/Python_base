@@ -6,7 +6,7 @@ def _odd_iter():
     yield n
 # 筛选函数
 def _not_divisible(n):
-  return lambda x:x % n > 0
+  return lambda x: x % n > 0
 # 定义一个生成器，不断返回下一个素数
 def primes():
   yield 2
