@@ -9,3 +9,19 @@ except ZeroDivisionError as e:
 finally:
   print('finally')  
 print('END')
+print('-----------------------------')
+# 多个except捕获不同类型的错误
+try:
+  print('try')
+  r = 10 / int('5')
+  print('result:', r)
+except ValueError as e:
+  print('ValueError:', e)
+# 运算错误  
+except ZeroDivisionError as e:
+  print('ZeroDivisionError:', e)
+else:
+  print('No Error')  
+finally:
+  print('finally')
+print('END')        
