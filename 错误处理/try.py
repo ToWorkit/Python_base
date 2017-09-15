@@ -25,3 +25,19 @@ else:
 finally:
   print('finally')
 print('END')        
+print('------------------')
+# Python的错误其实也是class，所有的错误类型都继承自BaseException，所以在使用except时需要注意的是，它不但捕获该类型的错误，还把其子类也“一网打尽”
+
+def foo(s):
+  return 10 / int(s)
+def bar(s):
+  print(foo(s) * 2)
+def main():
+  try:
+    bar('2')
+  except Exception as e:
+    print('Error:', e)
+  finally:
+    print('Finally')        
+
+main()
