@@ -49,3 +49,11 @@ print(dic_03)
 # 新的创建字典
 dic_04 = dict.fromkeys(['key1', 'key2', 'key3'], 'test')
 print(dic_04)
+
+# 排序 默认根据key
+dic_05 = {
+  2: '1',
+  4: '2',
+  1: '3'
+}
+print(sorted(dic_05.values()))
