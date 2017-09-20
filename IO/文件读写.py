@@ -1,5 +1,5 @@
 # 标识符 r 表示读, 指定编码
-f = open('test.txt', 'r', encoding='utf-8')
+f = open('test.txt', 'r', encoding='utf8')
 print(f.read())
 for line in f.readlines():
   print(line.strip())

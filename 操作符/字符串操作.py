@@ -58,3 +58,5 @@ print(sp.split('='))
 
 # 首字母都大写
 print('hello world'.title())
+
+print('abc'.capitalize())
