@@ -9,6 +9,7 @@ for i in f.readlines():
   if cor == 6:
     # i = i.strip() + ' <----'
     # 字符串拼接用join
+    # 默认删除空白符 strip
     i = ''.join([i.strip(), ' -----'])
   # 去掉换行符
   print(i.strip())

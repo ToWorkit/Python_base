@@ -4,6 +4,10 @@ import numpy as np
 a = np.array([1, 2, 3, 4])
 print(a)
 
+l1 = 2
+l2 = 4
+print(np.dot(l1, l2))
+print(np.random.rand(4))
 
 import time
 a = np.random.rand(1000000)
