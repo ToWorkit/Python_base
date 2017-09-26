@@ -1,3 +1,6 @@
+'''
+  创建
+'''
 from multiprocessing import Process
 import os
 # 子进程需要执行的代码
