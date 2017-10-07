@@ -54,3 +54,11 @@ def person_02(name, age, **kw):
         pass
     print('name ->', name, 'age ->', age, kw)
 person_02('ll', 22, job = 'fe')
+
+# 传入字典时
+def foo(*obj):
+# def foo(**obj):
+    print(obj)
+# foo(**{'name': 'lp'})
+# foo(info={'name': 'lp'})
+foo(*[1, 2, 3], *[4, 5, 6])
