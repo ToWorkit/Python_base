@@ -4,4 +4,8 @@
 def application(environ, start_response):
   start_response('200 OK', [('Content-type', 'text/html')])
   body = '<h1>Hello,%s</h1>' % (environ or 'web')
+  # 请求方法
+  # environ['REQUEST_METHOD']
+  # 请求路由
+  # environ['PATH_TNFO']
   return [body.encode('utf-8')]
