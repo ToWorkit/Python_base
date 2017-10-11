@@ -1,0 +1,7 @@
+# https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432339034336cbf72acd43354d72831461e3871d9f2e000
+
+configs = {
+  'db': {
+    'host': '192.168.0.100'
+  }
+}
