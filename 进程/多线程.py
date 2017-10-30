@@ -22,5 +22,6 @@ print('thread %s is running' % threading.current_thread().name)
 t = threading.Thread(target=loop, name='LoopThread')
 t.start()
 # 继续执行
+# 阻塞进程，直到当前线程执行完毕
 t.join()
 print('thread %s ended' % threading.current_thread().name)
