@@ -1,8 +1,9 @@
 l = ['A', 'B', 'C', 'D']
 # 取前三个元素 0, 1, 2, 索引为0时可以省略
 # print(l[0:3])
-# print(l[:2])
-print(l[1:2])
+print(l[:2])
+print(l[1:3])
+print(l[:])
 # 倒数切片(slice)
 print(l[-2:])
 print(l[-2:-1])

@@ -3,7 +3,7 @@
 # start_response：一个发送HTTP响应的函数。
 def application(environ, start_response):
   start_response('200 OK', [('Content-type', 'text/html')])
-  body = '<h1>Hello,%s</h1>' % (environ or 'web')
+  body = '<h1>Hello,%s</h1>' % (environ['PATH_INFO'] or 'web')
   # 请求方法
   # environ['REQUEST_METHOD']
   # 请求路由
