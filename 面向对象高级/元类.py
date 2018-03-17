@@ -43,7 +43,8 @@ class MyList(list, metaclass = ListMetaclass):
 # MyList 可以 调用 add() 方法
 L = MyList()
 L.add(2)
+L.add(4)
 print(L)
 # 普通的list没有add()方法
-l2 = list()
+# l2 = list()
 # l2.add(3) # 'list' object has no attribute 'add'
